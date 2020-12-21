@@ -1,6 +1,9 @@
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
 
-
+a {
+    font-family: 'Julius Sans One';
+    color: black;
+}
 
 h1, h2, h3 , h4, h5 {
     font-family: 'Abril Fatface';
@@ -17,6 +20,14 @@ h5 {
 
 h4 {
     font-size: 16px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    width: -webkit-fill-available;
+    justify-content: center;
+    align-content: baseline;
 }
 
 .card-project a:hover {
@@ -84,7 +95,7 @@ li a:hover {
   
 .image {
     display: block;
-    width: 300px;
+    width: 350px;
     height: auto;
     border-radius: 3px; 
     box-shadow: 0 0 9px rgba(0,0,0,0.1);
@@ -97,7 +108,7 @@ li a:hover {
     right: 0;
     background-color: transparent;
     overflow: hidden;
-    width: 300px;
+    width: 350px;
     height: 0;
     transition: .4s ease;
 }
@@ -121,6 +132,18 @@ li a:hover {
     transform: translate(-50%, -50%);
     text-align: center;
 }
-.text:hover {
-    
+
+
+.btn:hover {
+    background-color: rgba(223, 154, 154, 0.637);
+  }
+
+.btn a {
+  color: black;
+}
+
+.btn a:hover {
+  text-decoration: none;
+  color: black;
+ 
 }
