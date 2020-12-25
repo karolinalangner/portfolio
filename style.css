@@ -1,8 +1,18 @@
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
 @import "components/banner.css";
+@import "components/footer.css";
+
+body { 
+    padding-top: 200px; 
+}
 
 a {
     font-family: 'Julius Sans One';
+    color: black;
+}
+
+p {
+    font-family: 'Istok Web', sans-serif;
     color: black;
 }
 
