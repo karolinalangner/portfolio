@@ -1,4 +1,5 @@
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import "components/banner.css";
 
 a {
     font-family: 'Julius Sans One';
@@ -9,10 +10,6 @@ h1, h2, h3 , h4, h5 {
     font-family: 'Abril Fatface';
 }
 
-h1 {
-    font-size: 50px;
-    font-weight: bold;
-}
 
 h5 {
     font-size: 5px;
@@ -33,7 +30,9 @@ h4 {
 .card-project a:hover {
     text-decoration: none;
 }
-
+.list-inline {
+    display:inline-block;
+}
 .list-inline>li {
     display: inline-block;
     margin: 0, 5px;
@@ -47,8 +46,6 @@ li a {
 }
 
 li a:hover {
-    border: 3px dashed rgba(0,0,0,0.2);
-   
     text-decoration: none;
     color: rgba(0,0,0,0.3);    
     transition: all 0.2s;
