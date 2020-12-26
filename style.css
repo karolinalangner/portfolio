@@ -20,6 +20,12 @@ h1, h2, h3 , h4, h5 {
     font-family: 'Abril Fatface';
 }
 
+a.anchor {
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
+}
 
 h5 {
     font-size: 5px;
@@ -63,14 +69,12 @@ li a:hover {
 
 .img-circle {
     border-radius: 50%;
-    height: 75px;
-    width: 75px;
+    height: 40px;
+    width: 40px;
     border: 1px solid rgba(0,0,0,0.2);
-
-
 }
 
-.img-circle:hover {
+.rotate:hover {
     transform: rotate(-10deg);
     transition: all 0.2s;
   
