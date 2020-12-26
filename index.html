@@ -18,7 +18,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Istok+Web&display=swap" rel="stylesheet"></head>
 <body>
 
-  <div class="d-flex my-4 py-1  bg-white" id="navbar">
+  <div class="d-flex my-4 py-1" id="navbar">
   
     <div class="ml-4">
       <h1 id="logo" class="mt-3">Karolina<br>Langner</h1>
@@ -42,16 +42,20 @@
     <div class="bg-white my-4" style="width: 1100px;">
  
       <div class="container section bio text-left" id="about"> 
-        <div class="card-title text-left mb-4">
+        <div class="card-title text-left mb-4 hide">
           <h4>bio</h4>
         </div>
-        <div class="element container">
-          <img class="img-circle" src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" />
+        <div class="element container text-center">
+          <p>Welcome to my portfolio. 
+            I am a freshly-bootcamp-graduated Web Developer living in London. 
+          </p>
+
+          <img class="img-circle hide" src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" />
         </div>
       </div>
       
       <div class="container section skills"> 
-        <div class="card-title text-left">
+        <div class="card-title text-left hide">
           <h4>skills</h4>
         </div>
         <div class="card-body text-center">
@@ -66,9 +70,9 @@
           </ul>
         </div>
       </div>
-      <div class="container section projects" id="projects">
+      <div class="container section projects my-4" id="projects">
         <div class="card-title text-left">
-          <h4>my projects</h4>
+        
         </div>
         <div class="card-project mt-4 element">
           <img class="image" src="images/syt-screenshot.PNG" />
@@ -112,17 +116,14 @@
           </div>
         </div>
       </div>
-      <div class="container" id="contact">
-        <div class="card-title text-left">
-          <h4>contact me</h4>
-          <div class="card-body">
-            <p>If you are interested in working with me or have any questions, please feel free to reach out to me via email: karolinalangner1@gmail.com </p>
-            <p>Or connect with me on LinkedIn: https://www.linkedin.com/in/karolina-langner</p>
-          </div>
-        </div> 
+      <div class="container my-4" id="contact">
+        <div class="card-body text-center">
+          <p> <i class="far fa-envelope"></i> karolinalangner1@gmail.com</p>
+        </div>
+      </div> 
     </div>
     <div class="footer text-center">
-      <p>&copy; Copyright 2020 Karolina Langner</p>
+      <p>&copy; Copyright 2021 Karolina Langner</p>
     </div>
   </div>
       <!-- Including Bootstrap JS (with its Popper.js / jQuery dependency) so that dynamic components work -->
