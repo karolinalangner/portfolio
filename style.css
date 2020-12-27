@@ -179,3 +179,10 @@ li a:hover {
 .hide {
    display: none;  
 }
+
+@media only screen and (max-width: 580px) {
+    .image {
+        max-width: 500px;
+        height: auto;
+    }
+}

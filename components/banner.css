@@ -48,6 +48,7 @@
       text-align: left;
       font-size: 30px !important;
       margin-right: -5px !important; 
+      text-decoration: none;
     }
 
     #navbar #logo {
@@ -56,6 +57,7 @@
   
     #links {
       padding: 0px !important;
+      display: flex;
      
     }
 
