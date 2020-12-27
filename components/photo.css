@@ -1,0 +1,10 @@
+#photo {
+    transition: 2s;
+}
+
+#lewagon {
+    position: absolute;
+    top: 700px;
+    right: 80px;
+    transition: 3s;
+}
