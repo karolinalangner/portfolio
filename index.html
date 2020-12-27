@@ -17,7 +17,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=PT+Sans+Narrow:wght@700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Istok+Web&display=swap" rel="stylesheet"></head>
-<body>
+<body style=" background-color: rgba(223, 154, 154, 0.637);">
 
   <div class="d-flex my-4 py-1" id="navbar">
   
@@ -38,30 +38,22 @@
       </div>
     </div>
   </div>
-  <div class="container">
-    
-    <div class="bg-white my-4" style="width: 1100px;">
-      
-      <div class="container section bio text-center" id="about">
-        <img id="photo" class="img-circle my-4" style="width: 250px;" src="images/IMG_2211.JPG"/>
-        <div class="container text-center">
-          <p style="font-size: 25px;">Welcome to my portfolio!<br><br> 👩‍💻 <br><br>My name is Karolina. I am a full stack web developer.
-            <br><img class="img-circle rotate small-round hide" id="lewagon" src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" />
-            <br> Originally from Poland, currently based in London.</p>
-          <p style="font-size: 20px;"><br>I have worked with:</p>
+  <div id="about" class="container">
+    <div></div>
+    <div class="my-2" style="width: 1100px;">
+    <!-- CONTENT -->
+      <!-- bio -->
+      <div class="row">
+        <div class="my-2 col-12 col-lg-8">
+          <p style="font-size: 35px; line-height: 75px;">Welcome to my portfolio! <br>My name is <mark>Karolina</mark>.<br>I am a <mark>full stack web developer</mark>.
+           <img class="img-circle rotate small-round hide" id="lewagon" src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" />
+            <br> Originally from <mark>Poland</mark>.<br>Currently based in <mark>London</mark>.</p>
+        </div>
+        <div class="d-flex align-items-center col-12 col-lg-4">
+          <img id="photo" class="img-circle my-4" style="width: 250px;" src="images/IMG_2211.JPG"/>
         </div>
       </div>
-      <div class="container section skills mt-n4"> 
-        <div class="card-body text-center">
-          <ul class="list-inline d-block">
-            <li><img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg" alt="ruby" width="60" height="60" class="mx-3"/></li> 
-            <li><img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="html5" width="60" height="60" class="mx-3"/></li>
-            <li><img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="css3" width="60" height="60" class="mx-3"/></li>
-            <li><img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" alt="postgresql" width="60" height="60" class="mx-3"/></li>
-            <li><img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="javascript" width="60" height="60" class="mx-3"/></li>
-          </ul>
-        </div>
-      </div>
+     <br>
       <div class="container section projects my-4" id="projects">
         <div class="card-project mt-4 element">
           <img class="image" src="images/syt-screenshot.PNG" />
@@ -103,6 +95,17 @@
             <p>This was my first MVC app. Built in 2 days during the bootcamp. Crazy Cocktails is a cocktail manager. It allows the user to add a recipe and upload a picture of their favourite cocktail to the gallery.</p>
             <small><a href="https://github.com/karolinalangner/rails-mister-cocktail"><i class="fab fa-github-square"> GH Repo</i></a></div></small>
           </div>
+        </div>
+      </div>
+      <div class="container section skills mt-n4"> 
+        <div class="card-body text-center">
+          <ul class="list-inline d-block">
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg" alt="ruby" width="60" height="60" class="mx-3"/></li> 
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="html5" width="60" height="60" class="mx-3"/></li>
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="css3" width="60" height="60" class="mx-3"/></li>
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" alt="postgresql" width="60" height="60" class="mx-3"/></li>
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="javascript" width="60" height="60" class="mx-3"/></li>
+          </ul>
         </div>
       </div>
       <div class="container my-4" id="contact">
