@@ -1,7 +1,7 @@
 #navbar {
     overflow: hidden;
     background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.96));
-    padding: 90px 10px; /* Large padding which will shrink on scroll (using JS) */
+    padding: 50px 10px; /* Large padding which will shrink on scroll (using JS) */
     transition: 0.4s; /* Adds a transition effect when the padding is decreased */
     position: fixed; /* Sticky/fixed navbar */
     width: -webkit-fill-available;
