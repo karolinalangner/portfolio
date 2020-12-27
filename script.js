@@ -1,4 +1,5 @@
 window.onscroll = function() {respNavbar(), scrollPhoto()};
+
 const photo = document.getElementById("photo");
 const lewagon = document.getElementById("lewagon")
 

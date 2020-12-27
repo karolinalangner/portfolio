@@ -26,15 +26,45 @@
     font-weight: bold;
     transition: 0.7s;
   }
-  
+
+  .menu {
+    display: flex;
+    align-items: center;
+    width: -webkit-fill-available;
+    justify-content: center;
+    align-content: baseline;
+}
   /* Add responsiveness - on screens less than 580px wide, display the navbar vertically instead of horizontally */
-  @media screen and (max-width: 580px) {
+  @media only screen and (max-width: 580px) {
     #navbar {
-      padding: 20px 10px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
+      padding: 0px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
+      display: grid !important;
+      grid-template-columns: 0.5fr 3fr !important;
+
     }
     #navbar h1 {
       float: none;
-      display: block;
+      display: flex !important;
       text-align: left;
+      font-size: 30px !important;
+      margin-right: -5px !important; 
+    }
+
+    #navbar #logo {
+    margin-right: -5px;  
+    }
+  
+    #links {
+      padding: 0px !important;
+     
+    }
+
+    #links button {
+      font-size: 15px !important;
+      margin-left: -12px !important;
+    }
+
+    #social {
+      display: none !important
     }
   }

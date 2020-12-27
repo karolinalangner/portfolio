@@ -47,13 +47,7 @@ small a:hover {
     color: #068679;
 }
 
-.menu {
-    display: flex;
-    align-items: center;
-    width: -webkit-fill-available;
-    justify-content: center;
-    align-content: baseline;
-}
+
 .card-project a {
     color: #045C53;
 }
