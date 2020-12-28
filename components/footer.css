@@ -1,0 +1,8 @@
+.footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100px;
+    color: rgba(0,0,0,0.4);
+    opacity: 0.8;
+}
