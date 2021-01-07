@@ -1,0 +1,30 @@
+
+.carousel-caption {
+    text-align: center;
+    padding: 25px 0;
+    background-color: rgba(255, 255, 255, 0.99);
+    position: absolute !important;
+
+}
+
+.carousel-caption a {
+    color: #045C53;
+}
+
+.carousel-caption a {
+    color: #068679;
+}
+
+
+
+.carousel-image {
+    filter: grayscale(100%);
+}
+
+small a {
+    color: #045C53;
+}
+
+small a:hover {
+    color: #068679;
+}
