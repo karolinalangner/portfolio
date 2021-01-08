@@ -109,11 +109,10 @@ li a:hover {
   }
   
 .image {
-    display: block;
-    width: 350px;
-    height: auto;
+  
     border-radius: 3px; 
     box-shadow: 0 0 9px rgba(0,0,0,0.1);
+    padding: 0 !important;
 }
 
 .overlay {
