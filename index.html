@@ -22,16 +22,16 @@
   <div class="my-4 py-1 row" id="navbar">
   
     <div class="col-xs-6 col-md-3">
-      <a href="index.html"><h1 id="logo" class="mt-3">Karolina<br>Langner</h1></a>
+      <a href="index.html"><h1 id="logo">Karolina<br>Langner</h1></a>
     </div>
     <div class="col-xs-6 col-md-9">
       <div class="col-xs-6"> 
-        <ul class="m-4 list-inline d-flex justify-content-end" id="social">
+        <ul class="list-inline d-flex justify-content-end" id="social">
           <li><a href="http://linkedin.com/in/karolina-langner"><i class="fab fa-linkedin"></i></a></li>
           <li><a href="http://github.com/karolinalangner"><i class="fab fa-github-square"></i></a></li>
         </ul>
       </div>
-      <div class="my-4 py-1 menu col-xs-6"  id="links">
+      <div class="menu col-xs-6"  id="links">
         <a href="#top"><button type="button" class="anchor btn mx-3" style="border: none;">About</button></a>
         <a href="#projects"><button type="button" class="anchor btn mx-3" style="border: none;">My Projects</button></a>
         <a href="#contact"><button type="button" class="anchor btn mx-3" style="border: none;">Contact</button></a>
@@ -43,8 +43,8 @@
   <div  class="container">
     <!-- bio -->
     <div class="row">
-      <div class="d-flex align-items-centermy-2 col-12 col-lg-8">
-        <p style="font-size: 35px; line-height: 75px;">Welcome to my portfolio! <br>My name is <mark>Karolina</mark>.<br>I am a <mark>Full Stack Web Developer</mark>.
+      <div class="d-flex align-items-centermy-2 col-12 col-lg-8 bio">
+        <p>Welcome to my portfolio! <br>My name is <mark>Karolina</mark>.<br>I am a <mark>Full Stack Web Developer</mark>.
           <img class="img-circle rotate small-round hide" id="lewagon" src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" />
           <br> Originally from <mark>Poland</mark>.<br>Currently based in <mark>London</mark>.</p>
       </div>
@@ -54,11 +54,14 @@
     </div>
     <br>
     <!-- projects -->
-    <div class="container section projects my-4" id="projects">
-      <div class="card-project mt-4 element ">
-        <div class="row">   
-          <img class="col-lg-4" src="images/syt-screenshot.PNG" />
-          <div class="my-2 descr col-xs-12 col-lg-8">
+      <!-- slide show -->
+      <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="images/syt-screenshot.PNG" style="width:100%">
+          <div class="text">
             <a href="http://www.surf-yor-trip.xyz" target="_new">Surf Your Trip</a>
             <br>
             <br>
@@ -67,37 +70,46 @@
             <small><a href="https://github.com/Gregoire-Cade/surf-your-trip"><i class="fab fa-github-square"> GH Repo</i></a></small>
           </div>
         </div>
-      </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="/images/rentit-screenshot.PNG" style="width:100%">
+          <div class="text">
 
-      <div class="card-project mt-4 element">
-        <div class="row">
-          <img class="col-lg-4" src="images/rentit-screenshot.PNG" />
-          <div class="my-2 descr col-xs-12 col-lg-8">
             <a href="http://www.airbnb-gregoire-cade.herokuapp.com" target="_new">Rent-it!</a>
             <br>
             <br>
-            <p>Surf Your Trip was my final project during Le Wagon bootcamp. Built in only 9 days, along with Greg Cade.
-              The app allows you to browse through surf spots around the world, share your favourite spots with other users and plan your future surf trips.</p>
+            <p>Rent it! was my first MVC team project I worked on during the bootcamp. It's an AirBnB clone.</p>
             <small><a href="https://github.com/karolinalangner/rails-airbnb-clone"><i class="fab fa-github-square"> GH Repo</i></a></small>
           </div>
         </div>
-      </div>
-
-      <div class="card-project mt-4 element">
-        <div class="row">
-          <img class="col-lg-4" src="images/cocktails-screenshot.PNG" />  
-          <div class="my-2 descr col-xs-12 col-lg-8">
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="images/cocktails-screenshot.PNG" style="width:100%">
+          <div class="text">
             <a href="http://www.karolinascrazycocktails.herokuapp.com" target="_new">Crazy Cocktails</a>
             <br>
             <br>
             <p>This was my first MVC app. Built in 2 days during the bootcamp. Crazy Cocktails is a cocktail manager. It allows the user to add a recipe and upload a picture of their favourite cocktail to the gallery.</p>
-            <small><a href="https://github.com/karolinalangner/rails-mister-cocktail"><i class="fab fa-github-square"> GH Repo</i></a></div></small>
+            <small><a href="https://github.com/karolinalangner/rails-mister-cocktail"><i class="fab fa-github-square"> GH Repo</i></a></small>
           </div>
         </div>
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)"><i class="fas fa-long-arrow-alt-left"></i></a>
+        <a class="next" onclick="plusSlides(1)"><i class="fas fa-long-arrow-alt-right"></i></a>
       </div>
-
+      <br>
+      
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
       <!-- Carousel -->
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div id="carouselExampleControls" class="carousel slide hide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img class="d-block w-100 carousel-image" src="images/syt-screenshot.PNG" alt="Surf Your Trip">
@@ -140,7 +152,7 @@
       
       <div class="container section skills mt-4"> 
         <div class="card-body text-center">
-          <ul class="list-inline d-block">
+          <ul class="list-inline d-flex justify-content-center">
             <li><img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg" alt="ruby" width="60" height="60" class="mx-3"/></li> 
             <li><img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="html5" width="60" height="60" class="mx-3"/></li>
             <li><img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="css3" width="60" height="60" class="mx-3"/></li>

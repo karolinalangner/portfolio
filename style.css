@@ -3,6 +3,8 @@
 @import "components/footer.css";
 @import "components/photo.css";
 @import "components/carousel.css";
+@import "components/project.css";
+@import "components/slide.css";
 
 body { 
     padding-top: 250px;
@@ -22,6 +24,15 @@ p {
 h1, h2, h3 , h4, h5 {
     font-family: 'Abril Fatface';
     color: #045C53
+}
+
+.bio {
+
+}
+
+.bio p {
+    font-size: 35px; 
+    line-height: 75px;
 }
 
 a.anchor {
@@ -84,37 +95,6 @@ li a:hover {
   
 }
 
-.card-title {
-    font-family: 'Syncopate', sans-serif;
-}
-.section {
-    border-radius: 0;
-    width: 600px;
-
-    justify-content: center;
-    margin: 30px;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    
-}
-
-.element {
-    display: flex;
-}
-
-.card-project {
-    position: relative;
-    width: auto;
-    border-radius: 9px;
-  }
-  
-.image {
-  
-    border-radius: 3px; 
-    box-shadow: 0 0 9px rgba(0,0,0,0.1);
-    padding: 0 !important;
-}
-
 .overlay {
     position: absolute;
     bottom: 0;
@@ -131,20 +111,6 @@ li a:hover {
 .card-project:hover .overlay {
     height: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45));
-}
-
-.text {
-    color: white;
-    font-size: 15px;
-    font-family: 'PT Sans Narrow', sans-serif;
-    font-weight: lighter;
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
 }
 
 
@@ -169,4 +135,17 @@ li a:hover {
 
 .hide {
    display: none;  
+}
+@media only screen and (max-width: 580px) {
+    .bio {
+        margin-top: -155px;
+    }
+    .bio p {
+        font-size: 22px !important;
+        line-height: 53px;
+    }
+    .skills img{
+        height: 40px !important;
+        width: 40px !important;
+    }
 }
