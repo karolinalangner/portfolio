@@ -1,31 +1,33 @@
 #navbar {
     overflow: hidden;
-    background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.96));
-    padding: 30px 10px; /* Large padding which will shrink on scroll (using JS) */
+    background-color: rgb(254, 252, 215);
+    padding: 40px 10px; /* Large padding which will shrink on scroll (using JS) */
     transition: 0.4s; /* Adds a transition effect when the padding is decreased */
     position: fixed; /* Sticky/fixed navbar */
     width: -webkit-fill-available;
     top: -25px; /* At the top */
     z-index: 99;
     display: inline-flex;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.08);
   }
   
   /* Style the navbar links */
   #navbar h1 {
     float: left;
     text-align: center;
-    padding: 5px;
+    padding: 5px 10px;
     text-decoration: none;
     font-size: 70px; 
     color: #045C53; 
-    opacity: 0.5;
+    font-weight: bold;
+    line-height: 50px;
   }
+
   .list-inline {
-    margin: 25px 10px;
+    margin: 5px 10px;
   }
   /* Style the logo */
   #navbar #logo {
-    font-weight: bold;
     transition: 0.7s;
     margin-top: 10px;
   }
@@ -43,15 +45,15 @@
       padding: 0px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
       display: grid !important;
       grid-template-columns: 0.5fr 3fr !important;
-
     }
+
     #navbar h1 {
       float: none;
       display: flex !important;
       text-align: left;
-      font-size: 30px !important;
       margin-right: -5px !important; 
       text-decoration: none;
+      line-height: 20px;
     }
 
     .menu {
@@ -61,6 +63,7 @@
     
     #navbar #logo {
       font-size: 20px !important;
+      line-height: 30px !important;
     }
   
     #links {
@@ -69,7 +72,7 @@
     }
 
     #links button {
-      font-size: 10px !important;
+      font-size: 13px !important;
       margin-left: -20px !important;
     }
     .list-inline {
