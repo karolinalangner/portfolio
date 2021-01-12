@@ -16,10 +16,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=PT+Sans+Narrow:wght@700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Istok+Web&display=swap" rel="stylesheet"></head>
+  <link href="https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap" rel="stylesheet">
+</head>
 <body style=" background-color: rgba(223, 154, 154, 0.637);">
   <!-- NAVBAR -->
-  <div class="my-4 py-1 row" id="navbar">
+  <div class="mt-4 py-3 row" id="navbar">
   
     <div class="col-xs-6 col-md-3">
       <a href="index.html"><h1 id="logo">Karolina<br>Langner</h1></a>
@@ -40,29 +41,35 @@
   </div>
  
   <!-- CONTENT -->
-  <div  class="container">
+  <div class="container">
     <!-- bio -->
-    <div class="row">
-      <div class="d-flex align-items-centermy-2 col-12 col-lg-8 bio">
-        <p>Welcome to my portfolio! <br>My name is <mark>Karolina</mark>.<br>I am a <mark>Full Stack Web Developer</mark>.
-          <img class="img-circle rotate small-round hide" id="lewagon" src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" />
+    
+  
+    <div class="row mb-4">
+      <div class="col-12 col-lg-6 bio">
+        <h4 class="title mt-n4">Hello <br> &nbsp;there</h4>
+        <br>
+        <p>My name is <mark>Karolina</mark>.<br>I am a <mark>Full Stack Web Developer</mark>.
           <br> Originally from <mark>Poland</mark>.<br>Currently based in <mark>London</mark>.</p>
       </div>
-      <div class="d-flex align-items-center justify-content-center col-12 col-lg-4">
-        <img id="photo" class="img-circle my-4" style="width: 250px;" src="images/IMG_2211.JPG"/>
+      <div class="d-flex align-items-start justify-content-center col-12 col-lg-6 pic">
+        <img id="photo" class="img-circle my-4" style=" -webkit-transform: scaleX(-1); width: 300px;" src="images/IMG_2211.JPG"/>
       </div>
     </div>
     <br>
-    <!-- projects -->
-      <!-- slide show -->
-      <div class="slideshow-container">
 
+    <!-- projects -->
+    <div class="mt-4" id="projects"> 
+      <h4 class="title">My<br> &nbsp;projects</h4>
+      <!-- slide show -->
+     
+      <div class="slideshow-container my-4" >
         <!-- Full-width images with number and caption text -->
         <div class="mySlides fade">
-          <div class="numbertext">1 / 3</div>
+          <div class="numbertext">1 / 4</div>
           <img src="images/syt-screenshot.PNG" style="width:100%">
           <div class="text">
-            <a href="http://www.surf-yor-trip.xyz" target="_new">Surf Your Trip</a>
+            <a href="http://www.surf-your-trip.xyz" target="_new">Surf Your Trip</a>
             <br>
             <br>
             <p>Surf Your Trip was my final project during Le Wagon bootcamp. It is a Ruby on Rails app. Built in only 9 days, along with Greg Cade.
@@ -72,8 +79,8 @@
         </div>
       
         <div class="mySlides fade">
-          <div class="numbertext">2 / 3</div>
-          <img src="/images/rentit-screenshot.PNG" style="width:100%">
+          <div class="numbertext">2 / 4</div>
+          <img src="/images/rent-it-screenshot.png" style="width:100%">
           <div class="text">
 
             <a href="http://www.airbnb-gregoire-cade.herokuapp.com" target="_new">Rent-it!</a>
@@ -85,7 +92,7 @@
         </div>
         
         <div class="mySlides fade">
-          <div class="numbertext">3 / 3</div>
+          <div class="numbertext">3 / 4</div>
           <img src="images/cocktails-screenshot.PNG" style="width:100%">
           <div class="text">
             <a href="http://www.karolinascrazycocktails.herokuapp.com" target="_new">Crazy Cocktails</a>
@@ -95,36 +102,49 @@
             <small><a href="https://github.com/karolinalangner/rails-mister-cocktail"><i class="fab fa-github-square"> GH Repo</i></a></small>
           </div>
         </div>
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 4</div>
+          <img src="images/nicehair.PNG" style="width:100%">
+          <div class="text">
+            <a href="https://karolinalangner.github.io/landing/" target="_new">NiceHair</a>
+            <br>
+            <br>
+            <p>This was my first static page deployed to gh-pages.</p>
+            <small><a href="https://github.com/karolinalangner/landing"><i class="fab fa-github-square"> GH Repo</i></a></small>
+          </div>
+        </div>
         <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1)"><i class="fas fa-long-arrow-alt-left"></i></a>
-        <a class="next" onclick="plusSlides(1)"><i class="fas fa-long-arrow-alt-right"></i></a>
+        <a class="prev" onclick="plusSlides(-1)"><i class="fas fa-chevron-left"></i></a>
+        <a class="next" onclick="plusSlides(1)"><i class="fas fa-chevron-right"></i></a>
       </div>
       <br>
       
       <!-- The dots/circles -->
-      <div style="text-align:center">
+      <div class="text-center">
         <span class="dot" onclick="currentSlide(1)"></span>
         <span class="dot" onclick="currentSlide(2)"></span>
         <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
       </div>
-      <!-- skills -->
-      <div class="container section skills mt-4"> 
-        <div class="card-body text-center">
-          <ul class="list-inline d-flex justify-content-center">
-            <li><img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg" alt="ruby" width="60" height="60" class="mx-3"/></li> 
-            <li><img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="html5" width="60" height="60" class="mx-3"/></li>
-            <li><img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="css3" width="60" height="60" class="mx-3"/></li>
-            <li><img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" alt="postgresql" width="60" height="60" class="mx-3"/></li>
-            <li><img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="javascript" width="60" height="60" class="mx-3"/></li>
-          </ul>
-        </div>
+    </div> 
+    <!-- skills -->
+    <div class="container section skills mt-4"> 
+      <div class="card-body text-center">
+        <ul class="list-inline d-flex justify-content-center">
+          <li><img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg" alt="ruby" width="60" height="60" class="mx-3"/></li> 
+          <li><img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="html5" width="60" height="60" class="mx-3"/></li>
+          <li><img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="css3" width="60" height="60" class="mx-3"/></li>
+          <li><img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" alt="postgresql" width="60" height="60" class="mx-3"/></li>
+          <li><img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="javascript" width="60" height="60" class="mx-3"/></li>
+        </ul>
       </div>
-      <div class="container my-4" id="contact">
-        <div class="card-body text-center">
-          <p> <i class="far fa-envelope"></i> karolinalangner1@gmail.com</p>
-        </div>
-      </div> 
     </div>
+    <div class="container my-4" id="contact">
+      <div class="card-body text-center">
+        <p> <i class="far fa-envelope"></i> karolinalangner1@gmail.com</p>
+      </div>
+    </div> 
+    <!-- footer -->
     <div class="footer text-center">
       <p>&copy; Copyright 2021 Karolina Langner</p>
     </div>
