@@ -1,6 +1,6 @@
 #navbar {
     overflow: hidden;
-    background-color: rgb(254, 252, 215);
+    background-color: rgba(254, 252, 215, 0.95);
     padding: 40px 10px; /* Large padding which will shrink on scroll (using JS) */
     transition: 0.4s; /* Adds a transition effect when the padding is decreased */
     position: fixed; /* Sticky/fixed navbar */

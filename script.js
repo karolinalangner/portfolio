@@ -6,14 +6,14 @@ const lewagon = document.getElementById("lewagon")
 function respNavbar() {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
     document.getElementById("navbar").style.padding = "5px";
-    document.getElementById("navbar").style.backgroundColor = "rgb(254, 252, 215)";
+    document.getElementById("navbar").style.backgroundColor = "rgba(254, 252, 215, 0.95)";
     document.getElementById("logo").style.fontSize = "35px";
     document.getElementById("logo").style.lineHeight = "35px";
     document.getElementById("logo").style.marginTop = "revert";
     document.getElementById("links").style.fontSize = "10px";
   } else {
     document.getElementById("navbar").style.padding = "40px 10px";
-    document.getElementById("navbar").style.backgroundColor = "rgb(254, 252, 215)";
+    document.getElementById("navbar").style.backgroundColor = "rgba(254, 252, 215, 0.95)";
     document.getElementById("logo").style.fontSize = "70px";
     document.getElementById("links").style.fontSize = "20px";
     document.getElementById("logo").style.lineHeight = "50px";
