@@ -42,11 +42,12 @@ h1 {
 
 }
 
-.bio p {
+.bio p, .contact p, .skills p {
     font-size: 30px; 
     line-height: 70px;
     margin-left: 45px;
 }
+
 .pic {
     bottom: 40px;
     right: 5px;
