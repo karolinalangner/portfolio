@@ -36,6 +36,7 @@
         <a href="#top"><button type="button" class="anchor btn mx-3" style="border: none;">About</button></a>
         <a href="#projects"><button type="button" class="anchor btn mx-3" style="border: none;">My Projects</button></a>
         <a href="#contact"><button type="button" class="anchor btn mx-3" style="border: none;">Contact</button></a>
+        <a href="files/Karolina Langner - CV Jan (1).pdf"><button type="button" class="anchor btn mx-3" style="border: none;">CV</button></a>
       </div>
     </div>
   </div>
@@ -45,11 +46,11 @@
     <!-- bio -->
     
   
-    <div class="row mb-4">
+    <div class="row">
       <div class="col-12 col-lg-6 bio">
-        <h4 class="title mt-n4">Hello <br> &nbsp;there</h4>
+        <h4 class="title">Hello <br> &nbsp;there</h4>
         <br>
-        <p>My name is <mark>Karolina</mark>.<br>I am a <mark>Full Stack Web Developer</mark>.
+        <p class="subtitle">My name is <mark>Karolina</mark>.<br>I am a <mark>Full Stack Web Developer</mark>.
           <br> Originally from <mark>Poland</mark>.<br>Currently based in <mark>London</mark>.</p>
       </div>
       <div class="d-flex align-items-start justify-content-center col-12 col-lg-6 pic">
@@ -59,14 +60,14 @@
     <br>
 
     <!-- projects -->
-    <div class="mt-4" id="projects"> 
+    <div class="container" id="projects"> 
       <h4 class="title">My<br> &nbsp;projects</h4>
       <!-- slide show -->
-      <p>Most of my projects were part of </p>
+      <p class="subtitle">Check out my recent projects.<br>I have worked on some static pages, as well as a few MVC web apps built in RoR. </p>
       <div class="slideshow-container my-4" >
         <!-- Full-width images with number and caption text -->
         <div class="mySlides fade">
-          <div class="numbertext">1 / 5</div>
+          <div class="numbertext">1 / 6</div>
           <img src="images/syt-screenshot.PNG" style="width:100%">
           <div class="text">
             <a href="http://www.surf-your-trip.xyz" target="_new">Surf Your Trip</a>
@@ -79,7 +80,7 @@
         </div>
       
         <div class="mySlides fade">
-          <div class="numbertext">2 / 5</div>
+          <div class="numbertext">2 / 6</div>
           <img src="/images/rent-it-screenshot.png" style="width:100%">
           <div class="text">
 
@@ -92,7 +93,7 @@
         </div>
         
         <div class="mySlides fade">
-          <div class="numbertext">3 / 5</div>
+          <div class="numbertext">3 / 6</div>
           <img src="images/cocktails-screenshot.PNG" style="width:100%">
           <div class="text">
             <a href="http://www.karolinascrazycocktails.herokuapp.com" target="_new">Crazy Cocktails</a>
@@ -103,7 +104,7 @@
           </div>
         </div>
         <div class="mySlides fade">
-          <div class="numbertext">4 / 5</div>
+          <div class="numbertext">4 / 6</div>
           <img src="images/nicehair.PNG" style="width:100%">
           <div class="text">
             <a href="https://karolinalangner.github.io/landing/" target="_new">NiceHair</a>
@@ -114,14 +115,23 @@
           </div>
         </div>
         <div class="mySlides fade">
-          <div class="numbertext">5 / 5</div>
+          <div class="numbertext">5 / 6</div>
           <img src="images/Portfolio.PNG" style="width:100%">
           <div class="text">
             <a href="https://karolinalangner.me/" target="_new">This website!</a>
             <br>
             <br>
-            <p>Inception!<br>This portfolio was my first static website I created after a bootcamp. It helps me presenting my latest project and helps me keeping my HTML and CSS skills, while I'm learning new languages.</p>
+            <p>Inception!<br>This portfolio was my first static website I created after a bootcamp. It helps me present my latest project and keep my HTML and CSS skills, while I'm learning new languages.</p>
             <small><a href="https://github.com/karolinalangner/portfolio"><i class="fab fa-github-square"> GH Repo</i></a></small>
+          </div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 6</div>
+          <img src="images/soon.gif" style="width:100%">
+          <div class="text">
+            <h5>Soon...</h5>
+            <br>
+            <p>I am now working on some exciting project, so stay tuned. </p>
           </div>
         </div>
         <!-- Next and previous buttons -->
@@ -137,31 +147,35 @@
         <span class="dot" onclick="currentSlide(3)"></span>
         <span class="dot" onclick="currentSlide(4)"></span>
         <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
       </div>
     </div> 
     <!-- skills -->
-    <div class="skills my-4">
+    <div class="skills">
       <h4 class="title">My<br> &nbsp;skills</h4>
-      <p></p>
+      <br>
+      <p class="subtitle">I keep learning new stuff - watch this space!<br>I am currently learning <mark>React and Redux</mark>.<br><small>I am always happy to pick up another language if a new job opportunity requires me to.</small></p>
         <ul class="list-inline d-flex justify-content-center my-4">
           <li><img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg" alt="ruby" width="60" height="60" class="mx-3"/></li> 
+          <li><img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Ruby_On_Rails_Logo.svg" alt="rails" width="70" height="80" class="mx-3"/></li> 
           <li><img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="html5" width="60" height="60" class="mx-3"/></li>
           <li><img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="css3" width="60" height="60" class="mx-3"/></li>
-          <li><img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" alt="postgresql" width="60" height="60" class="mx-3"/></li>
+          <li><img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="bootstrap" width="60" height="60" class="mx-3"/></li>
           <li><img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="javascript" width="60" height="60" class="mx-3"/></li>
+          <li><img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" alt="postgresql" width="60" height="60" class="mx-3"/></li>
         </ul>
     </div>
-    <div class="my-4 contact" id="contact">
+    <div class="contact" id="contact">
      
         <h4 class="title">Contact<br> &nbsp;me</h4>
         <br>
-        <p>If you like my work and are interested in a collaboration - get in touch!</p>
-        <ul class="text-center" style="list-style-type:none; font-size: 20px; font-family: 'Istok Web', sans-serif;">
-          <li><i class="far fa-envelope"></i> karolinalangner1@gmail.com</li>
+        <p class="subtitle text-center">If you like my work and are interested in a collaboration - get in touch!</p>
+        <ul class="contact-links d-flex justify-content-center align-items-center" style="list-style-type:none; font-size: 20px; font-family: 'Istok Web', sans-serif;">
+          <li><a href="mailto:karolinalangner1@gmail.com"><mark><i class="far fa-envelope"></i> karolinalangner1@gmail.com</mark></a></li>
           <br>
-          <li><a href="http://linkedin.com/in/karolina-langner"><i class="fab fa-linkedin"></i>/karolina-langner</a></li>
+          <li><a href="http://linkedin.com/in/karolina-langner"><mark><i class="fab fa-linkedin"></i>/karolina-langner</mark></a></li>
           <br>
-          <li><a href="http://github.com/karolinalangner"><i class="fab fa-github-square"></i>/karolinalangner</a></li>
+          <li><a href="http://github.com/karolinalangner"><mark><i class="fab fa-github-square"></i>/karolinalangner</mark></a></li>
         </ul>
     </div> 
     <!-- footer -->

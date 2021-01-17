@@ -9,7 +9,7 @@ function respNavbar() {
     document.getElementById("navbar").style.backgroundColor = "rgba(254, 252, 215, 0.95)";
     document.getElementById("logo").style.fontSize = "35px";
     document.getElementById("logo").style.lineHeight = "35px";
-    document.getElementById("logo").style.marginTop = "revert";
+    document.getElementById("logo").style.marginTop = "10px";
     document.getElementById("links").style.fontSize = "10px";
   } else {
     document.getElementById("navbar").style.padding = "40px 10px";

@@ -69,11 +69,12 @@
     #links {
       padding: 0px !important;
       display: flex;
+      margin-left: -15px;
     }
 
     #links button {
       font-size: 13px !important;
-      margin-left: -20px !important;
+      margin-left: -25px !important;
     }
     .list-inline {
       margin: 0 !important;
