@@ -28,6 +28,15 @@ h1 {
     font-family: 'Istok Web', sans-serif;
     color: #045C53
 }
+.bio {
+    margin-top: -105px;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
 
 .title {
    font-weight: bold;
@@ -38,14 +47,14 @@ h1 {
    background-color: rgb(254, 252, 215);
    padding: 20px;
    width: min-content;
-   box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.04);
-
+   box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.04); 
+   margin: 60px 0 25px;
 }
 
-.bio p, .contact p, .skills p {
-    font-size: 30px; 
+.subtitle {
+    font-size: 29px; 
     line-height: 70px;
-    margin-left: 45px;
+    margin-left: 15px;
 }
 
 .pic {
@@ -65,8 +74,6 @@ h5 {
     color: #045C53;
 }
 
-    text-decoration: none;
-}
 .list-inline {
     display:inline-block;
 }
@@ -123,6 +130,12 @@ li a:hover {
         height: 40px !important;
         width: 40px !important;
     }
+
+    .subtitle {
+        font-size: 20px!important;
+        line-height: 45px;
+        margin-left: 15px!important;   
+    }
     
     .pic {
         top: 0;
@@ -130,6 +143,11 @@ li a:hover {
     }
     
     .bio {
-        margin-top: -80px;
+        margin: -150px 0 -30px 0;
     }
-}
+
+    .contact-links {
+        display: flex;
+        flex-direction: column;
+    }
+}   
