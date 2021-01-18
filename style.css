@@ -48,7 +48,7 @@ h1 {
    padding: 20px;
    width: min-content;
    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.04); 
-   margin: 60px 0 25px;
+   margin: 60px 0 30px;
 }
 
 .subtitle {
@@ -74,19 +74,18 @@ h5 {
     color: #045C53;
 }
 
-.list-inline {
-    display:inline-block;
-}
 .list-inline>li {
     display: inline-block;
-    margin: 0, 5px;
+}
+
+.skills ul {
+    padding: 0;
 }
 
 li a {
     color: #045C53;
-    font-size: 20px;
-    padding: 4px;
-    margin: 4px;
+    font-size: 25px;
+    padding: 5px;
 }
 
 li a:hover {
@@ -123,7 +122,7 @@ li a:hover {
 @media only screen and (max-width: 580px) {
 
     .bio p {
-        font-size: 22px !important;
+        font-size: 20px !important;
         line-height: 53px;
     }
     .skills img{
@@ -132,10 +131,15 @@ li a:hover {
     }
 
     .subtitle {
-        font-size: 20px!important;
+        font-size: 16px!important;
         line-height: 45px;
         margin-left: 15px!important;   
     }
+
+    .title {
+        margin: 60px 0 15px;
+    }
+
     
     .pic {
         top: 0;
@@ -143,11 +147,16 @@ li a:hover {
     }
     
     .bio {
-        margin: -150px 0 -30px 0;
+        margin: -180px 0 10px;
     }
 
     .contact-links {
         display: flex;
         flex-direction: column;
     }
+
+    .skills img {
+        margin: 5px 0;
+    }
+
 }   
