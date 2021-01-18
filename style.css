@@ -36,6 +36,7 @@ h1 {
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    padding: 0;
 }
 
 .title {
@@ -55,6 +56,7 @@ h1 {
     font-size: 29px; 
     line-height: 70px;
     margin-left: 15px;
+    margin-bottom: 45px;
 }
 
 .pic {
@@ -153,6 +155,10 @@ li a:hover {
     .contact-links {
         display: flex;
         flex-direction: column;
+    }
+
+    .contact-links a {
+        font-size: 20px;
     }
 
     .skills img {
