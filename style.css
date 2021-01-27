@@ -8,6 +8,7 @@
 
 body { 
     padding-top: 250px;
+    background-image: linear-gradient(to left top, rgba(255,255,255, 0.2), rgba(158, 22, 22, 0.384));
 }
 
 a {
@@ -45,7 +46,7 @@ h1 {
    font-size: 55px;
    line-height: 35px;
    font-family: 'Istok Web', sans-serif;
-   background-color: rgb(254, 252, 215);
+   background-image: linear-gradient(to right top, rgba(254, 252, 215, 0.9), rgba(254, 252, 215, 0.6));
    padding: 20px;
    width: min-content;
    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.04); 
