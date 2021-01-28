@@ -52,7 +52,7 @@
 
 /* Caption text */
 .text {
-  background-color: rgba(252, 250, 217, 0.88);
+  background-image: linear-gradient(to right top, rgba(254, 252, 215, 0.9), rgba(254, 252, 215, 0.65));
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
